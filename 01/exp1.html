@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
+    />
+    <title>General Website Structure in HTML</title>
+    <meta name="description" content="Simple Template Website for Assignment" />
+    <meta name="author" content="Spandan" />
+    <h1>General Website Structure in HTML</h1>
+    <h2>HelloWorld!</h2>
+    <hr />
+    <center>
+      <h3>Hello World!</h3>
+      <marquee>Welcome! This webpage is only made to test some basic functionality of HTML 
+      </marquee>
+      <p style="color: red">for example this is a paragraph in red</p>
+      <p style="color: blue; font-weight: bold">
+        This is a paragraph in blue and is bold
+      </p>
+      <p style="color: green">
+        <em>This is a paragraph in green and is italics</em>
+      </p>
+      <hr />
+    </center>
+    <h1>Sample Input Fields</h1>
+    <input type="checkbox" id="com1" name="com1" value="Desktop" />
+    <label for="com1"> I have a Desktop</label>
+    <input type="checkbox" id="com2" name="com2" value="Smartphone" />
+    <label for="com2"> I have a Smartphone</label>
+    <input type="checkbox" id="com3" name="com3" value="Tablet" />
+    <label for="com3"> I have a Tablet</label>
+    <input type="checkbox" id="com4" name="com4" value="Laptop" />
+    <label for="com4"> I have a Laptop</label>
+    <br />
+    <input type="radio" id="java" name="fav_language" value="java" />
+    <label for="java">Java</label>
+    <br />
+    <input type="radio" id="html" name="fav_language" value="html" />
+    <label for="html">HTML</label>
+    <br />
+    <input type="radio" id="python" name="fav_language" value="python" />
+    <label for="python">Python</label>
+    <br /
+    <label for="favcolor"><i>Select your favorite color:</i></label>
+    <input type="color" id="favcolor" name="favcolor" />
+
+    <div class="container">
+      <p style="text-align: right; margin-right: 30px">
+        Please fill in this form...
+      </p>
+      <hr />
+      <label for="email"><b>Email</b></label>
+      <input
+        type="email"
+        placeholder="Enter Email"
+        name="email"
+        id="email"
+        required
+      />
+      <label for="name"><b>Name</b></label>
+      <input
+        type="text"
+        placeholder="Enter Name"
+        name="name"
+        id="name"
+        required
+      />
+
+      <label for="psw"><b>Password</b></label>
+      <input
+        type="password"
+        placeholder="Enter Password"
+        name="psw"
+        id="psw"
+        required
+      />
+
+      <br />
+      <br />
+      <label for="dob"><b>Date of Birth</b></label>
+      <input type="date" name="dob" id="dob" required />
+      <label for="gender"><b>Gender</b></label>
+
+      <select name="gender" id="gender">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+      </select>
+      <hr />
+
+      <p>
+       Sample Hyperlink <a href="#">Terms & Privacy</a>.
+      </p>
+      <button type="submit" class="registerbtn">Okay Done</button>
+    </div>
+  </head>
+</html>
