@@ -1,0 +1,27 @@
+<html>
+<head>
+    <body>
+        <h1>My Car's Age</h1>
+        <br>
+        <div id = "demo"> </div>
+    </body>
+    <script type = "text/javascript">
+    class car
+    {
+        constructor (name,year) 
+        {
+            this.name = name;
+            this.year = year;
+        }
+        age(x) 
+        {
+            return x - this.year;
+        }
+    }
+    let d1 = new Date();
+    let y = d1.getFullYear();
+    let c1 = new car("BMW",2018);
+    doucument.getElementById("demo").innerHTML = "My car's age =" +c1.age(y) +" years";
+    </script>
+</head>
+</html>

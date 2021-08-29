@@ -1,0 +1,32 @@
+<DOCTYPE html>
+    <body>
+        <p id = "demo"></p>
+        <script type = "text/javascript">
+        class car
+        {
+            constructor(brand)
+            {
+                this.brand = brand;
+            }
+            display1()
+            {
+                return "1 have" +this.brand;
+            }
+        }
+        class mycar extends car
+        {
+            constructor(brand, name)
+            {
+                super(brand);
+                this.name = name;
+            }
+            display2()
+            {
+                return "It is a" + this.name;
+            }
+        }
+        let c1 = new mycar("Maruti","SX4");
+        doucument.getElementById("demo").innerHTML =c1.display1()+" "+c1.display2();
+        </script>
+    </body>
+</html>
