@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Experiment 5 IPL</title>
+  </head>
+  <body>
+    <p id="spandan"></p>
+    <script type="text/javascript">
+      class phone {
+        constructor(brand) {
+          this.brand = brand;
+        }
+        display1() {
+          document.writeln("I have a " + this.brand + " Phone.");
+        }
+      }
+      class myphone extends phone {
+        constructor(brand, name) {
+          super(brand);
+          this.name = name;
+        }
+        display2() {
+          document.writeln("<br> It is a " + this.name);
+        }
+      }
+      let c1 = new myphone("Xiaomi", "Redmi Note 10 Pro");
+      c1.display1();
+      c1.display2();
+    </script>
+  </body>
+  </html>
